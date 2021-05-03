@@ -8,7 +8,7 @@ def key_for_min_value(harolds_things)
   
   harolds_things.each do |thing, num|
     if lowest_value == nil || num < lowest_value
-      lowest_value = numb
+      lowest_value = num
       lowest_key = thing
     end
   end
